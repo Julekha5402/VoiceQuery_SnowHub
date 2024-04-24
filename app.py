@@ -7,7 +7,7 @@ import base64
 from snowflake.snowpark.context import get_active_session
 import os
  
-openai.api_key = os.getenv()
+openai.api_key = os.getenv("OPEN_AI_API")
  
 # Initialize session state variables
 if "logged_in" not in st.session_state:
