@@ -1,0 +1,6 @@
+streamlit
+streamlit-mic-recorder
+openai
+pandas
+snowflake-connector-python
+snowflake-snowpark-python
