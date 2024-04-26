@@ -121,8 +121,7 @@ def fetch_and_display_table_data(conn, database, schema, table):
         st.error(f"Error fetching data from table: {e}")
  
 def voice_to_text_page(conn, column):
-    openai.api_key = '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'
-    col1 , col2, col3 , col4,col5 , col6,col7 , col8 = st.columns(8)
+   col1 , col2, col3 , col4,col5 , col6,col7 , col8 = st.columns(8)
     with col1:
         st.write(" ")
         st.write(" ")
